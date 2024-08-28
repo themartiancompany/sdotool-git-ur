@@ -40,6 +40,7 @@ depends=(
 [[ "${_os}" != "GNU/Linux" ]] && \
 [[ "${_os}" == "Android" ]] && \
   depends+=(
+    android-input-utils
     tsu
   )
 makedepends=(
