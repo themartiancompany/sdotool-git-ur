@@ -1,0 +1,22 @@
+pkgbase = sdotool-git
+	pkgdesc = Command-line SurfaceFlinger automation tool.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g999e7436a24ad8bdf90aa5ba7a05460b2700d6d7
+	pkgrel = 1
+	url = https://github.com/themartiancompany/sdotool
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = libcrash-bash
+	depends = tsu
+	optdepends = xdotool: same program for X11
+	provides = sdotool=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g999e7436a24ad8bdf90aa5ba7a05460b2700d6d7
+	conflicts = sdotool
+	source = sdotool.tar.gz::https://github.com/themartiancompany/sdotool/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = sdotool-git
